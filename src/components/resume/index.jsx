@@ -34,7 +34,7 @@ const Resume = () => {
         </a>
       </C.Container>
       <C.ImageSpace>
-        <C.Img src="profile-image.svg" alt="Foto de perfil" />
+        <C.Img src="marcio_profile.png" alt="Foto de perfil" />
       </C.ImageSpace>
     </C.Wrapper>
   )

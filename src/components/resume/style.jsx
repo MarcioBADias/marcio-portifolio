@@ -139,11 +139,20 @@ export const ImageSpace = styled.div`
 `
 
 export const Img = styled.img`
-  margin-top: 100px;
+  border-radius: 100%;
+  margin-top: 120px;
   position: relative;
-  width: 60vw;
-  top: 70px;
+  width: 35vw;
+  top: 35px;
   left: 50px;
+  animation: profile 10s linear infinite;
+
+  @keyframes profile {
+    50% {
+      left: -5%;
+      top: 30%;
+    }
+  }
 
   @media (max-width: 840px) {
     display: none;
