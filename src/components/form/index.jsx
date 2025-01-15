@@ -86,7 +86,7 @@ const Form = () => {
               E-mail de contato:
             </p>
             <p style={{ textAlign: 'center', fontWeight: 'bold' }}>
-              marcio.b.a.dias@gmail.com
+              marcius.dev.estudos@gmail.com
             </p>
           </C.Square>
           <C.Square
@@ -107,7 +107,7 @@ const Form = () => {
             <p
               style={{ textAlign: 'center', fontSize: 12, fontWeight: 'bold' }}
             >
-              Armação dos Búzios/RJ
+              Cabo Frio/RJ
             </p>
           </C.Square>
         </C.SquareArea>
