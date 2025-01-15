@@ -27,7 +27,8 @@ const Resume = () => {
             textDecoration: 'none',
             color: 'inherit',
           }}
-          href="https://drive.google.com/file/d/18zax1YkLC8hTivX-TnZARoJWiAY5ugoX/view?usp=sharing"
+          href="https://drive.google.com/file/d/1f5TJsVOh-ziFmhg97FjS64H5bICnvKnl/view?usp=sharing"
+          target="_blank"
         >
           <C.Button>Curriculo Pdf</C.Button>
         </a>
