@@ -1,8 +1,6 @@
 import React from 'react'
 import { Link } from 'react-scroll'
 
-import LogoArt from '../../assets/img/logo.svg'
-
 //import * as C from './style';
 
 const Logo = ({ size }) => {
@@ -16,7 +14,11 @@ const Logo = ({ size }) => {
         offset={-80}
         duration={800}
       >
-        <img style={{ width: size }} src={LogoArt} alt="Logo Marcius Code" />
+        <img
+          style={{ width: size }}
+          src="img/logo.svg"
+          alt="Logo Marcius Code"
+        />
       </Link>
     </div>
   )

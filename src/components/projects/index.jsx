@@ -1,9 +1,4 @@
 import React from 'react'
-import project1 from '../../assets/img/projects/project-topMovies.svg'
-import project2 from '../../assets/img/projects/project-PokeAPI.svg'
-import project3 from '../../assets/img/projects/project-FinControl.svg'
-import project4 from '../../assets/img/projects/project-memoryGame.svg'
-
 import * as C from './style'
 
 const Projects = () => {
@@ -22,17 +17,26 @@ const Projects = () => {
         </C.Text>
       </C.TextArea>
       <C.ProjectArea>
-        <C.Link href="https://top-20-movies.netlify.app/">
-          <C.Img src={project1} alt="Projeto em React" />
+        <C.Link href="https://top-20-movies.netlify.app/" target="_blank">
+          <C.Img src="projects/project-topMovies.svg" alt="Projeto em React" />
         </C.Link>
-        <C.Link href="https://poke-rest-api.netlify.app/">
-          <C.Img src={project2} alt="Projetoem Vue" />
+        <C.Link href="https://poke-rest-api.netlify.app/" target="_blank">
+          <C.Img src="projects/project-PokeAPI.svg" alt="Projetoem Vue" />
         </C.Link>
-        <C.Link href="https://controle-financeiro-pessoal-simples.netlify.app/">
-          <C.Img src={project3} alt="Projeto React" />
+        <C.Link
+          href="https://controle-financeiro-pessoal-simples.netlify.app/"
+          target="_blank"
+        >
+          <C.Img src="projects/project-FinControl.svg" alt="Projeto React" />
         </C.Link>
-        <C.Link href="https://memory-game-challenger-code.netlify.app/">
-          <C.Img src={project4} alt="Projeto em Javascript" />
+        <C.Link
+          href="https://memory-game-challenger-code.netlify.app/"
+          target="_blank"
+        >
+          <C.Img
+            src="projects/project-memoryGame.svg"
+            alt="Projeto em Javascript"
+          />
         </C.Link>
       </C.ProjectArea>
     </C.Section>

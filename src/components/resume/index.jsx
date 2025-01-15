@@ -1,5 +1,4 @@
 import React from 'react'
-import profile from '../../assets/img/profile-image.svg'
 //import SelfWritten from "../self-written";
 
 import * as C from './style'
@@ -34,7 +33,7 @@ const Resume = () => {
         </a>
       </C.Container>
       <C.ImageSpace>
-        <C.Img src={profile} alt="Foto de perfil" />
+        <C.Img src="profile-image.svg" alt="Foto de perfil" />
       </C.ImageSpace>
     </C.Wrapper>
   )
